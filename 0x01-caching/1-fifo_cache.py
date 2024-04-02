@@ -29,4 +29,3 @@ class FIFOCache(BaseCaching):
         """Retrieves an item from the cache using its key.
         """
         return self.cache_data.get(key, None)
-
